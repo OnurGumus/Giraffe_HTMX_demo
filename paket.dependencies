@@ -2,3 +2,12 @@ source https://www.nuget.org/api/v2
 storage: none
 nuget FSharp.Core
 nuget Giraffe
+nuget Microsoft.AspNetCore.SpaServices.Extensions
+
+group Client
+source https://www.nuget.org/api/v2
+storage: none
+nuget FSharp.Core
+nuget Fable.Elmish.HMR
+nuget Fable.Lit
+nuget Fable.Lit.Elmish
