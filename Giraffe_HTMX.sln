@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Giraffe_HTMX", "Server\Giraffe_HTMX.fsproj", "{43CD6B15-EEBF-4E2D-B99B-EC7F6CE3EA14}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Client", "Client\Client.fsproj", "{EFC9701B-62DF-44D0-85B1-63450430BA52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43CD6B15-EEBF-4E2D-B99B-EC7F6CE3EA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CD6B15-EEBF-4E2D-B99B-EC7F6CE3EA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CD6B15-EEBF-4E2D-B99B-EC7F6CE3EA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CD6B15-EEBF-4E2D-B99B-EC7F6CE3EA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC9701B-62DF-44D0-85B1-63450430BA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC9701B-62DF-44D0-85B1-63450430BA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC9701B-62DF-44D0-85B1-63450430BA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC9701B-62DF-44D0-85B1-63450430BA52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
