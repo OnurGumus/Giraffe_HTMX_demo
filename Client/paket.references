@@ -1,6 +1,4 @@
-
 group Client
 FSharp.Core
-Fable.Elmish.HMR
-Fable.Lit
-Fable.Lit.Elmish
+Elmish
+Fable.Store

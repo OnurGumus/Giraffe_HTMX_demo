@@ -55,7 +55,7 @@ let configureApp (app : IApplicationBuilder) =
     let env = app.ApplicationServices.GetService<IWebHostEnvironment>()
     if env.IsDevelopment() then
         app.UseSpa(fun spa ->
-            spa.Options.SourcePath <- "../Client"
+            spa.Options.SourcePath <- "../Client.View"
             spa.Options.DevServerPort <- 5173
             spa.UseReactDevelopmentServer(npmScript = "start")
         )

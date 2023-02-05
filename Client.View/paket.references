@@ -1,0 +1,8 @@
+
+group Client
+FSharp.Core
+Fable.Elmish.HMR
+Fable.Lit
+Fable.Lit.Elmish
+Fable.Elmish.Debugger
+Fable.LitStore

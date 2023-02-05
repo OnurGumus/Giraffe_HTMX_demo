@@ -11,3 +11,7 @@ nuget FSharp.Core
 nuget Fable.Elmish.HMR
 nuget Fable.Lit
 nuget Fable.Lit.Elmish
+nuget Elmish
+nuget Fable.Elmish.Debugger
+nuget Fable.Store
+nuget Fable.LitStore

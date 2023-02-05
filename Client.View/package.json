@@ -6,11 +6,12 @@
   "scripts": {
         "start": "echo Starting the development server && dotnet fable watch . -s -o build --runFast vite",
         "dev": "vite",
-        "build": "dotnet fable clean --yes  && dotnet fable .  -o  build/Client && vite build"
+        "build": "dotnet fable clean --yes  && dotnet fable . -o build && vite build"
     },
      "dependencies": {
         "@lit-labs/motion": "latest",
-        "lit": "latest"
+        "lit": "latest",
+        "remotedev" : "latest"
     },
      "devDependencies": {
         
